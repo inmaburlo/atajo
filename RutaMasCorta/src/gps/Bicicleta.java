@@ -23,16 +23,20 @@ public class Bicicleta {
         {
             sum1 += camino1[i];
         }
+        System.out.println(  "Total camino1: " +  sum1  );
         
         for(int posicion=0; posicion<camino2.length; posicion++) 
         {
         	sum2+= camino2[posicion];
         }
+        System.out.println(  "Total camino2: " +  sum2  );
         
         for(int posicion=0; posicion<camino3.length; posicion++ )
         {
         	sum3+= camino3[posicion];
         }
+        System.out.println(  "Total camino3: " +  sum3  );
+        
         if(sum1 < sum2 && sum1 < sum3)
         {
             return "camino 1"; 
